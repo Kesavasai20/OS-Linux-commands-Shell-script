@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/f4f441e8-fe45-42de-8533-2ee2164b92e7)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/e31724cf-c52b-4265-af1c-73923d2bc6c5)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/6e58cecb-0e1c-4456-99c6-71e7b334e8f6)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/bdd44293-158c-4121-8a53-6dad7791510e)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/adbf3693-e25d-46a9-9839-ae5d59643b4f)
 
 
 #Filters
@@ -82,17 +87,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/3df29b25-07b4-4165-bf26-b008b6891f01)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/54c13e2c-5301-4c68-b7c9-3c0dab95601a)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/54bd2634-6365-4940-9946-14c720c2dbcf)
 
 
 cat < newfile 
@@ -107,28 +115,33 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/60e19045-3e3a-4f37-949e-bb5137436faf)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/410e90aa-c708-4bc5-a7f4-c36a9ec139f6)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/3e54cfcb-d84e-40ac-8a68-d1bec1e93459)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/6ba0cc67-5860-4aa6-b86c-2b2261930ba0)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/Kesavasai20/OS-Linux-commands-Shell-script/assets/138849303/6ef2f832-9d93-4259-bfc1-feb8ec5fc848)
 
 
 
